@@ -1,0 +1,59 @@
+@use "sass:math";
+
+
+
+.btn {
+    border          : $border-1 $red;
+    background-color: #fff;
+    color           : #333;
+}
+
+@mixin btn-custom($theme: DarkGray) {
+    background-color: $theme;
+    color           : $white;
+}
+
+@mixin btn-outline-custom($theme: #ffcc00, $border-width: 1px) {
+    background-color: #fff;
+    color           : $theme;
+
+
+    @if $border-width>3px {
+        border:  math.div($border-width, 4);
+    }
+
+    @else {
+        border: $border-width solid $theme;
+    }
+}
+
+
+.btn-red {
+    @include btn-custom($theme: $red);
+}
+
+.btn-outline-primary {
+    @include btn-outline-custom($primary, 2px);
+}
+
+.btn-outline-secondary {
+    @include btn-outline-custom(($secondary));
+}
+
+.btn-outline-danger {
+    @include btn-outline-custom(($danger));
+}
+
+@for $i from 1 through 9 {
+    .pt-#{$i} {
+        padding-top: math.div($i, 3);
+    }
+}
+
+
+@each $key, $value in $colors {
+    .btn-#{$key} {
+        color       : $value;
+        border-color: $value;
+    }
+}
