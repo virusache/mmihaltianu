@@ -15,5 +15,8 @@ $valoare in $colors {
         .bg-#{$cheie}-light-#{$i*2} {
             background-color: color.adjust($valoare, $lightness: $i * 10%);
         }
+        .bg-#{$cheie}-dark-#{$i*2} {
+            background-color: color.scale($valoare, $blackness: $i * 10%);
+        }
     }
 }
