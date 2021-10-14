@@ -1,8 +1,19 @@
-@each $cheie, $valoare in $colors{
-    .text-#{$cheie}{
+@use 'sass:color';
+
+@each $cheie,
+$valoare in $colors {
+
+    .text-#{$cheie} {
         color: $valoare;
     }
-    .bg-#{$cheie}{
+
+    .bg-#{$cheie} {
         background-color: $valoare;
+    }
+
+    @for $i from 1 to 4 {
+        .bg-#{$cheie}-light-#{$i*2} {
+            background-color: color.adjust($valoare, $i*10);
+        }
     }
 }
