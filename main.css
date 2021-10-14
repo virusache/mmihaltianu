@@ -189,54 +189,104 @@ body {
   color: #3283EE;
 }
 
+.bg-primary {
+  background-color: #3283EE;
+}
+
 .text-secondary {
   color: #1AC886;
+}
+
+.bg-secondary {
+  background-color: #1AC886;
 }
 
 .text-error {
   color: #D32752;
 }
 
+.bg-error {
+  background-color: #D32752;
+}
+
 .text-info {
   color: #F6C31C;
+}
+
+.bg-info {
+  background-color: #F6C31C;
 }
 
 .text-blue {
   color: #1919E6;
 }
 
+.bg-blue {
+  background-color: #1919E6;
+}
+
 .text-red {
   color: #E61919;
+}
+
+.bg-red {
+  background-color: #E61919;
 }
 
 .text-yellow {
   color: #E6E619;
 }
 
+.bg-yellow {
+  background-color: #E6E619;
+}
+
 .text-green {
   color: #19E635;
+}
+
+.bg-green {
+  background-color: #19E635;
 }
 
 .text-orange {
   color: #FFA600;
 }
 
+.bg-orange {
+  background-color: #FFA600;
+}
+
 .text-purple {
   color: #9900FF;
+}
+
+.bg-purple {
+  background-color: #9900FF;
 }
 
 .text-gray {
   color: #808080;
 }
 
+.bg-gray {
+  background-color: #808080;
+}
+
 .text-black {
   color: black;
+}
+
+.bg-black {
+  background-color: black;
 }
 
 .text-white {
   color: white;
 }
 
-/*# sourceMappingURL=main.scss.map */
+.bg-white {
+  background-color: white;
+}
 
 /*# sourceMappingURL=main.css.map */

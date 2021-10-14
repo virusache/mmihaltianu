@@ -2,4 +2,7 @@
     .text-#{$cheie}{
         color: $valoare;
     }
+    .bg-#{$cheie}{
+        background-color: $valoare;
+    }
 }
