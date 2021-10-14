@@ -11,9 +11,9 @@ $valoare in $colors {
         background-color: $valoare;
     }
 
-    @for $i from 1 to 4 {
+    @for $i from 1 to 5 {
         .bg-#{$cheie}-light-#{$i*2} {
-            background-color: color.adjust($valoare, $i*10);
+            background-color: color.adjust($valoare, $lightness: $i * 10%);
         }
     }
 }
