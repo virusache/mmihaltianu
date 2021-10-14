@@ -1,0 +1,17 @@
+@use "sass:math";
+.card {
+    display:block;
+    padding: $base-padding;
+    border: $base-border-thickness solid $bg-white;
+    border-radius: math.div($base-border-radius, 4);
+    .card-title{
+        font-size: 32px;
+        padding-bottom: $base-padding;
+
+    }
+    .card-body{
+        font-size: 16px;
+        
+    }
+
+}
