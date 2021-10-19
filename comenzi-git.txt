@@ -35,3 +35,8 @@ reseteaza toate modificarile de pe branchul nostru local, fara modificarile deja
 git clean -f
 
 sterge fisierele noi care nu sunt adaugate in modificari ( untracked)
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+
+adauga user name si user email(cu care te-ai logat in gitlab) in .gitconfig ( aflat la C:/users/STUDENTUL/.gitconfig)
