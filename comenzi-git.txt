@@ -1,0 +1,37 @@
+comenzi de git utile :
+
+git clone https://gitlab.com/alinbumbes/sass-course-gitlab.git   ( sau orice alt link de repository din gitlab, github, etc)
+
+git status
+
+verifica statusul unui repository
+
+git add -A
+
+adauga toate fisierele noi (untracked files) in lista de modificari (changes)
+
+git commit -am "in ghilimele punem mesajul de commit"
+
+git push
+
+ca sa trimitem modificarile din commit-ul nostru catre server ( origin/main)
+
+git log --graph --oneline --decorate
+
+va ofera informatii intr-o reprezentare grafica despre commit urile de pe un branch
+
+git fetch -all
+
+pentru a aduce noile branch uri la tine pe calculator
+
+git pull
+
+iti ia ultimele modificari de pe branch ul pe care il urmaresti  ( tu ai main, iar pe server este origin/main)
+
+git reset --hard
+
+reseteaza toate modificarile de pe branchul nostru local, fara modificarile deja intr-un commit
+
+git clean -f
+
+sterge fisierele noi care nu sunt adaugate in modificari ( untracked)
