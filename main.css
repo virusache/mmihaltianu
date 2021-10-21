@@ -11123,4 +11123,19 @@ textarea.form-control-lg {
   height: 30px;
 }
 
+.layout-sda {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+}
+
+.layout-content {
+  padding: 0;
+}
+
+.layout-footer {
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
